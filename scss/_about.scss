@@ -8,7 +8,7 @@
             linear-gradient(
                 to right,
                 rgba($primary-color, 0.9),
-                rgba($primary-color, 0.3)
+                rgba($primary-color, 0.2)
             ),
             url('../img/model-1.jpg') center top;
         background-size: cover;
@@ -31,6 +31,8 @@
         }
         p{
             font-weight: bold;
+            margin-left: 5rem;
+            margin-right: 5rem;
         }
     }
 
@@ -40,6 +42,13 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap : 2rem;
+
+        &__title {
+            font-weight: bold;
+            color: $secondary-color;
+            text-align:center;
+            font-size: xx-large;
+        }
 
         &__job {
             background: lighten($primary-color, 10%);
