@@ -229,7 +229,7 @@
   margin-bottom: 2rem;
 }
 .projects__items {
-  width: 60vw;
+  width: 80vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -242,7 +242,7 @@
   cursor: pointer;
 }
 .projects__item img {
-  width: 100%;
+  width: 300px;
 }
 .projects__item::after {
   content: "";
